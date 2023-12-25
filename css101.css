@@ -1,0 +1,106 @@
+body {
+    font-family: Arial;
+    background-color: rgb(9, 9, 9);
+}
+
+h1 {
+
+    margin: 10pt;
+    background-color: rgb(126, 9, 139);
+
+    font-family: Arial;
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(246, 145, 4);
+
+ }
+  
+.box {
+
+    margin: auto;
+    position: fixed;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-color: rgb(126, 9, 139);
+    border: 5px dashed rgb(246, 145, 4);
+
+    color: rgb(246, 145, 4);
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25rem;
+
+}
+
+.box:hover {
+
+    box-shadow: 25px 25px 20px rgb(135, 4, 65);
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+      );
+  
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 300% auto;
+      color: #c2bbbb;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+      font-size: 50px;
+
+      
+}
+@keyframes textclip {
+    to {
+
+        background-position: 200% center;
+
+    }
+}
+p {
+
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(246, 145, 4);
+
+}
+
+p.normal {
+
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(246, 145, 4);
+
+}
+
+p.italic {
+
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(246, 145, 4);
+
+}
+
+div > div > p {
+
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(246, 145, 4);
+
+}
+
+div > p {
+    font-size: smaller;
+    font-weight: bold;
+    color: rgb(246, 145, 4);
+
+}
